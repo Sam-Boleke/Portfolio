@@ -1,0 +1,59 @@
+.footer{
+    font-family:"Ubuntu Condensed", sans-serrif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    margin-top: -5px;
+    background-color: white;
+}
+
+.footer > .footer-logo img{
+   width: 180px;
+   height: 100%;
+   opacity: 0.9;
+}
+
+.footer > .footer-phone-hours span {
+   margin-left: 10px;
+   margin-right: 10px;
+   font-size: 1em;
+   letter-spacing: 2px;
+}
+
+.footer > .footer-phone-hours > .hours{
+   font-size: 0.8 em;
+   color: red;
+}
+
+.footer > .nav-wrapper{
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   width: 400px;
+}
+
+.footer > .social-media-icons-wrapper{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   width: 300px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.footer > .social-media-icons-wrapper a{
+  font-size: 1.5 em;
+  color: grey;
+  transition: 0.5s;
+}
+
+.footer > .social-media-icons-wrapper a:hover{
+   color: blue; 
+}
+
+.copyright-wrapper{
+   color: black;
+}
